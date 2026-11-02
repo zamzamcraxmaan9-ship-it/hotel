@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ZAMZAM HOTEL – Experience luxury, comfort & exceptional hospitality. Book your luxury stay today.">
+  <title>ZAMZAM HOTEL | Luxury & Comfort</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Icons from CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#home" class="logo">
+        <div class="logo-icon">Z</div>
+        <div class="logo-text">ZAMZAM <span>HOTEL</span></div>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="#booking" class="nav-book-btn">Book Now</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">★ ★ ★ ★ ★ Luxury Hotel</div>
+      <h1>WELCOME TO <span>ZAMZAM</span> HOTEL</h1>
+      <p class="hero-subtitle">Experience Luxury, Comfort &amp; Exceptional Hospitality.</p>
+      <div class="hero-buttons">
+        <a href="#rooms" class="btn btn-primary">Explore Rooms</a>
+        <a href="#booking" class="btn btn-white">Book Now</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about">
+        <div class="scroll-icon"></div>
+        Scroll Down
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80" alt="Zamzam Hotel luxurious lobby interior">
+          <div class="about-badge">
+            <div class="badge-number">15+</div>
+            <div class="badge-text">Years of Excellence</div>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <p class="about-subtitle">About Us</p>
+          <h2>Discover the Luxury of Zamzam Hotel</h2>
+          <p>Nestled in the heart of the city, Zamzam Hotel stands as a beacon of luxury and sophistication. Since our founding, we have been dedicated to providing an unparalleled hospitality experience that combines timeless elegance with modern comfort.</p>
+          <p>Our meticulously designed spaces, world-class amenities, and personalized service ensure that every guest feels welcomed, valued, and pampered throughout their stay.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="feature-icon">🏨</div>
+              <span>Comfortable Accommodation</span>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">🤝</div>
+              <span>Friendly Hospitality</span>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">⭐</div>
+              <span>Premium Experience</span>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">🍽️</div>
+              <span>Fine Dining</span>
+            </div>
+          </div>
+          <a href="#rooms" class="btn btn-primary">Explore Our Rooms</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ROOMS ========== -->
+  <section class="rooms section" id="rooms">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">Accommodation</p>
+        <h2>Our Rooms &amp; Suites</h2>
+        <div class="section-line"></div>
+        <p>Each room is designed to provide the ultimate comfort and luxury experience for our guests.</p>
+      </div>
+
+      <div class="room-filters reveal">
+        <button class="room-filter-btn active" data-filter="all">All Rooms</button>
+        <button class="room-filter-btn" data-filter="standard">Standard</button>
+        <button class="room-filter-btn" data-filter="deluxe">Deluxe</button>
+        <button class="room-filter-btn" data-filter="suite">Suite</button>
+      </div>
+
+      <div class="rooms-grid">
+        <!-- Standard Room -->
+        <div class="room-card reveal" data-category="standard">
+          <div class="room-card-image">
+            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80" alt="Standard Room with comfortable bed and modern decor">
+            <div class="room-card-price">$120 <span>/night</span></div>
+          </div>
+          <div class="room-card-body">
+            <h3>Standard Room</h3>
+            <p>A cozy and well-appointed room perfect for solo travelers or couples seeking comfort and value.</p>
+            <div class="room-features">
+              <span>👤 2 Guests</span>
+              <span>📐 30 m²</span>
+              <span>🛏️ Queen Bed</span>
+              <span>📶 Free Wi-Fi</span>
+            </div>
+            <div class="room-card-actions">
+              <a href="#booking" class="btn btn-outline">View Details</a>
+              <a href="#booking" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deluxe Room -->
+        <div class="room-card reveal" data-category="deluxe">
+          <div class="room-card-image">
+            <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600&q=80" alt="Deluxe Room with elegant furnishings and city view">
+            <div class="room-card-price">$200 <span>/night</span></div>
+          </div>
+          <div class="room-card-body">
+            <h3>Deluxe Room</h3>
+            <p>Spacious and elegantly designed, offering a perfect blend of luxury and relaxation with stunning city views.</p>
+            <div class="room-features">
+              <span>👤 2 Guests</span>
+              <span>📐 45 m²</span>
+              <span>🛏️ King Bed</span>
+              <span>🛁 Bathtub</span>
+            </div>
+            <div class="room-card-actions">
+              <a href="#booking" class="btn btn-outline">View Details</a>
+              <a href="#booking" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Executive Suite -->
+        <div class="room-card reveal" data-category="suite">
+          <div class="room-card-image">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d955c4644?w=600&q=80" alt="Executive Suite with living area and premium amenities">
+            <div class="room-card-price">$350 <span>/night</span></div>
+          </div>
+          <div class="room-card-body">
+            <h3>Executive Suite</h3>
+            <p>A premium suite featuring a separate living area, work desk, and panoramic views — ideal for business travelers.</p>
+            <div class="room-features">
+              <span>👤 3 Guests</span>
+              <span>📐 65 m²</span>
+              <span>🛏️ King Bed</span>
+              <span>🏙️ City View</span>
+            </div>
+            <div class="room-card-actions">
+              <a href="#booking" class="btn btn-outline">View Details</a>
+              <a href="#booking" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Luxury Suite -->
+        <div class="room-card reveal" data-category="suite">
+          <div class="room-card-image">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&q=80" alt="Luxury Suite with opulent decor and breathtaking views">
+            <div class="room-card-price">$500 <span>/night</span></div>
+          </div>
+          <div class="room-card-body">
+            <h3>Luxury Suite</h3>
+            <p>The pinnacle of opulence — featuring a private balcony, jacuzzi, luxury furnishings, and butler service.</p>
+            <div class="room-features">
+              <span>👤 4 Guests</span>
+              <span>📐 90 m²</span>
+              <span>🛏️ King Bed</span>
+              <span>🌊 Balcony</span>
+            </div>
+            <div class="room-card-actions">
+              <a href="#booking" class="btn btn-outline">View Details</a>
+              <a href="#booking" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">What We Offer</p>
+        <h2>Hotel Services</h2>
+        <div class="section-line"></div>
+        <p>We provide world-class services to make your stay comfortable, memorable, and worry-free.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">📶</div>
+          <h3>Free Wi-Fi</h3>
+          <p>Stay connected with complimentary high-speed internet access available throughout the hotel.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🍽️</div>
+          <h3>Restaurant &amp; Dining</h3>
+          <p>Savor exquisite international and local cuisines prepared by our award-winning chefs.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🏊</div>
+          <h3>Swimming Pool</h3>
+          <p>Relax by our stunning outdoor pool with comfortable loungers and poolside service.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🛎️</div>
+          <h3>24/7 Reception</h3>
+          <p>Our dedicated front desk team is available around the clock to assist you with anything you need.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🛏️</div>
+          <h3>Room Service</h3>
+          <p>Enjoy gourmet meals and refreshments delivered to the comfort of your room any time of day.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">✈️</div>
+          <h3>Airport Transportation</h3>
+          <p>Convenient and reliable airport pickup and drop-off service available for all guests.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🅿️</div>
+          <h3>Free Parking</h3>
+          <p>Secure underground parking with 24-hour surveillance is provided free of charge for hotel guests.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">👔</div>
+          <h3>Laundry Service</h3>
+          <p>Professional laundry and dry-cleaning services with same-day delivery available.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BOOKING ========== -->
+  <section class="booking section" id="booking">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">Reservation</p>
+        <h2>Book Your Stay</h2>
+        <div class="section-line"></div>
+        <p>Reserve your luxury room today and experience the finest hospitality at Zamzam Hotel.</p>
+      </div>
+
+      <div class="booking-wrapper">
+        <div class="booking-info reveal-left">
+          <h3>Why Book With Us?</h3>
+          <p>We guarantee the best rates, flexible cancellation, and a seamless booking experience. Your comfort is our priority.</p>
+          <div class="info-item">
+            <div class="info-icon">💰</div>
+            <span>Best Price Guarantee</span>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">🔄</div>
+            <span>Free Cancellation (up to 48 hours before)</span>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">⚡</div>
+            <span>Instant Confirmation</span>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">🔒</div>
+            <span>Secure Payment Processing</span>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">🎁</div>
+            <span>Exclusive Member Discounts</span>
+          </div>
+          <div class="booking-note">
+            <strong>⚠️ Note:</strong> This is a frontend demo. Bookings are not stored in a database. For actual reservations, please contact us directly.
+          </div>
+        </div>
+
+        <div class="booking-form-card reveal-right">
+          <h3>Make a Reservation</h3>
+          <form id="bookingForm" novalidate>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="fullName">Full Name <span class="required">*</span></label>
+                <input type="text" id="fullName" placeholder="Enter your full name" required>
+                <span class="form-error" id="fullNameError">Please enter your full name.</span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address <span class="required">*</span></label>
+                <input type="email" id="email" placeholder="you@example.com" required>
+                <span class="form-error" id="emailError">Please enter a valid email.</span>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number <span class="required">*</span></label>
+                <input type="tel" id="phone" placeholder="+1 234 567 890" required>
+                <span class="form-error" id="phoneError">Please enter your phone number.</span>
+              </div>
+              <div class="form-group">
+                <label for="roomType">Room Type <span class="required">*</span></label>
+                <select id="roomType" required>
+                  <option value="">Select Room Type</option>
+                  <option value="Standard Room">Standard Room — $120/night</option>
+                  <option value="Deluxe Room">Deluxe Room — $200/night</option>
+                  <option value="Executive Suite">Executive Suite — $350/night</option>
+                  <option value="Luxury Suite">Luxury Suite — $500/night</option>
+                </select>
+                <span class="form-error" id="roomTypeError">Please select a room type.</span>
+              </div>
+              <div class="form-group">
+                <label for="checkIn">Check-in Date <span class="required">*</span></label>
+                <input type="date" id="checkIn" required>
+                <span class="form-error" id="checkInError">Please select a check-in date.</span>
+              </div>
+              <div class="form-group">
+                <label for="checkOut">Check-out Date <span class="required">*</span></label>
+                <input type="date" id="checkOut" required>
+                <span class="form-error" id="checkOutError">Check-out must be after check-in.</span>
+              </div>
+              <div class="form-group">
+                <label for="guests">Number of Guests <span class="required">*</span></label>
+                <select id="guests" required>
+                  <option value="">Select Guests</option>
+                  <option value="1">1 Guest</option>
+                  <option value="2">2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                </select>
+                <span class="form-error" id="guestsError">Please select number of guests.</span>
+              </div>
+              <div class="form-group full-width">
+                <label for="specialRequests">Special Requests</label>
+                <textarea id="specialRequests" rows="3" placeholder="Any special requests or requirements..."></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary booking-submit">
+              <i class="fa-solid fa-calendar-check"></i>&nbsp; Confirm Booking
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Confirmation Modal -->
+  <div class="booking-modal" id="bookingModal">
+    <div class="booking-modal-content">
+      <div class="modal-icon">✓</div>
+      <h3>Booking Confirmed!</h3>
+      <p>Thank you for choosing Zamzam Hotel. Your reservation details are below.</p>
+      <div class="booking-details" id="bookingDetails"></div>
+      <button class="btn btn-primary" id="closeBookingModal">Close</button>
+    </div>
+  </div>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">Photo Gallery</p>
+        <h2>Explore Our Hotel</h2>
+        <div class="section-line"></div>
+        <p>Take a visual tour of our stunning facilities, luxurious rooms, and beautiful surroundings.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item reveal" data-caption="Hotel Exterior">
+          <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80" alt="Zamzam Hotel stunning exterior view at sunset">
+          <div class="gallery-overlay">
+            <div class="gallery-icon"><i class="fa-solid fa-expand"></i></div>
+            <p>Hotel Exterior</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal" data-caption="Luxury Bedroom">
+          <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600&q=80" alt="Elegant luxury bedroom with gold accents">
+          <div class="gallery-overlay">
+            <div class="gallery-icon"><i class="fa-solid fa-expand"></i></div>
+            <p>Luxury Bedroom</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal" data-caption="Fine Dining Restaurant">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Elegant hotel restaurant with fine dining setup">
+          <div class="gallery-overlay">
+            <div class="gallery-icon"><i class="fa-solid fa-expand"></i></div>
+            <p>Fine Dining Restaurant</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal" data-caption="Swimming Pool">
+          <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80" alt="Crystal-clear swimming pool surrounded by palm trees">
+          <div class="gallery-overlay">
+            <div class="gallery-icon"><i class="fa-solid fa-expand"></i></div>
+            <p>Swimming Pool</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal" data-caption="Hotel Reception">
+          <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&q=80" alt="Modern and welcoming hotel reception area">
+          <div class="gallery-overlay">
+            <div class="gallery-icon"><i class="fa-solid fa-expand"></i></div>
+            <p>Hotel Reception</p>
+          </div>
+        </div>
+        <div class="gallery-item reveal" data-caption="Hotel Interior">
+          <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&q=80" alt="Beautiful hotel interior hallway with warm lighting">
+          <div class="gallery-overlay">
+            <div class="gallery-icon"><i class="fa-solid fa-expand"></i></div>
+            <p>Hotel Interior</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#10094;</button>
+      <img src="" alt="Gallery image full view" id="lightboxImage">
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">&#10095;</button>
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">Testimonials</p>
+        <h2>What Our Guests Say</h2>
+        <div class="section-line"></div>
+        <p>Read genuine reviews from guests who have experienced the luxury of Zamzam Hotel.</p>
+      </div>
+
+      <div class="testimonial-slider reveal">
+        <div class="testimonial-track" id="testimonialTrack">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card-inner">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80" alt="James Anderson" class="testimonial-avatar">
+              <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+              <p class="testimonial-text">An absolutely incredible experience! The rooms are stunning, the staff is impeccable, and the dining was world-class. Zamzam Hotel exceeded all my expectations.</p>
+              <h4 class="testimonial-name">James Anderson</h4>
+              <p class="testimonial-role">Business Traveler, USA</p>
+            </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card-inner">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=80" alt="Sarah Mitchell" class="testimonial-avatar">
+              <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+              <p class="testimonial-text">We spent our anniversary here and it was pure magic. The attention to detail, from the rose petals to the champagne service, made it unforgettable.</p>
+              <h4 class="testimonial-name">Sarah Mitchell</h4>
+              <p class="testimonial-role">Couple Traveler, UK</p>
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card-inner">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&q=80" alt="Ahmed Hassan" class="testimonial-avatar">
+              <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+              <p class="testimonial-text">The best hotel I have ever stayed at. The pool area is breathtaking, and the concierge went above and beyond. Truly a five-star experience!</p>
+              <h4 class="testimonial-name">Ahmed Hassan</h4>
+              <p class="testimonial-role">Family Vacation, Dubai</p>
+            </div>
+          </div>
+          <!-- Testimonial 4 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card-inner">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80" alt="Maria Garcia" class="testimonial-avatar">
+              <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+              <p class="testimonial-text">From the moment we arrived, we were treated like royalty. The spa, the rooftop restaurant, and the city views — everything was absolutely perfect.</p>
+              <h4 class="testimonial-name">Maria Garcia</h4>
+              <p class="testimonial-role">Solo Traveler, Spain</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-controls">
+          <button class="testimonial-btn" id="prevTestimonial" aria-label="Previous testimonial">&#10094;</button>
+          <div class="testimonial-dots" id="testimonialDots"></div>
+          <button class="testimonial-btn" id="nextTestimonial" aria-label="Next testimonial">&#10095;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">Get in Touch</p>
+        <h2>Contact Us</h2>
+        <div class="section-line"></div>
+        <p>We would love to hear from you. Reach out to us for inquiries, feedback, or reservations.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <h3>Let's Connect</h3>
+          <p>Whether you have a question, feedback, or need assistance planning your stay, our team is here to help.</p>
+
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div>
+                <h4>Address</h4>
+                <p>123 Luxury Avenue, Downtown District, City, Country</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">📞</div>
+              <div>
+                <h4>Phone</h4>
+                <p>+1 (234) 567-8900</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">✉️</div>
+              <div>
+                <h4>Email</h4>
+                <p>info@zamzamhotel.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">🕐</div>
+              <div>
+                <h4>Working Hours</h4>
+                <p>24/7 — We never close</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+
+          <div class="map-placeholder">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019284958!2d-122.4194!3d37.7749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ2JzI5LjYiTiAxMjLCsDI1JzA5LjgiVw!5e0!3m2!1sen!2sus!4v1234567890" allowfullscreen loading="lazy" title="Zamzam Hotel Location"></iframe>
+          </div>
+        </div>
+
+        <div class="contact-form-card reveal-right">
+          <h3>Send Us a Message</h3>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="contactName">Your Name</label>
+              <input type="text" id="contactName" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Your Email</label>
+              <input type="email" id="contactEmail" placeholder="you@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="contactSubject">Subject</label>
+              <input type="text" id="contactSubject" placeholder="How can we help?" required>
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <textarea id="contactMessage" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">
+              <i class="fa-solid fa-paper-plane"></i>&nbsp; Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <div class="logo-icon">Z</div>
+            <div class="logo-text">ZAMZAM <span>HOTEL</span></div>
+          </a>
+          <p>Experience world-class hospitality, luxurious accommodations, and unforgettable moments at Zamzam Hotel. Your comfort is our passion.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#rooms">Rooms & Suites</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#booking">Reservations</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <div class="footer-links">
+            <a href="#services">Free Wi-Fi</a>
+            <a href="#services">Restaurant & Dining</a>
+            <a href="#services">Swimming Pool</a>
+            <a href="#services">Room Service</a>
+            <a href="#services">Airport Transfer</a>
+            <a href="#services">Laundry Service</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <div class="footer-contact-item">
+            <div class="fc-icon">📍</div>
+            <span>123 Luxury Avenue, Downtown District</span>
+          </div>
+          <div class="footer-contact-item">
+            <div class="fc-icon">📞</div>
+            <span>+1 (234) 567-8900</span>
+          </div>
+          <div class="footer-contact-item">
+            <div class="fc-icon">✉️</div>
+            <span>info@zamzamhotel.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <div class="fc-icon">🕐</div>
+            <span>24/7 — Always Open</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> <span>ZAMZAM HOTEL</span>. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== BACK TO TOP ========== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
